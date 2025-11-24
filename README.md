@@ -20,7 +20,7 @@ This project implements and compares two machine learning approaches for binary 
 **IMDB Movie Reviews Dataset**
 - **Size**: 50,000 reviews
 - **Balance**: 25,000 positive, 25,000 negative
-- **Source**: Kaggle IMDB Dataset
+- **Source**: [Kaggle IMDB Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 - **Format**: CSV with review text and sentiment labels
 
 ## 🏗️ Project Structure
@@ -95,7 +95,7 @@ python setup.py
 ```
 
 5. **Verify data**
-Ensure `data/IMDB Dataset.csv` exists. If not, download from Kaggle.
+Ensure `data/IMDB Dataset.csv` exists. If not, download from [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
 
 ### Quick Start
 
