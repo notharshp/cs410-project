@@ -56,7 +56,6 @@ cs410-project/
     ├── roc_curves.png                # ROC curves comparison
     ├── confidence_distributions.png  # Confidence analysis
     ├── prediction_agreement.png      # Model agreement heatmap
-    ├── sentiment_analysis_presentation.pptx  # PowerPoint presentation
     ├── confusion_matrices/           # Confusion matrix plots
     │   ├── naive_bayes_cm.png
     │   └── logistic_regression_cm.png
@@ -242,10 +241,6 @@ print(f"Logistic Regression: {'Positive' if lr_prediction == 1 else 'Negative'}"
 - worst, terrible, awful, bad, boring
 - waste, poor, disappointing, horrible, dull
 
-**Important Bigrams**:
-- "highly recommend", "must see", "waste time"
-- "not good", "don't waste", "well done"
-
 ## 🎨 Visualizations
 
 The project generates comprehensive visualizations in `results/`:
@@ -274,22 +269,14 @@ The project generates comprehensive visualizations in `results/`:
    - Heatmap showing where models agree/disagree
    - 93.5% agreement rate
 
-7. **PowerPoint Presentation** (`sentiment_analysis_presentation.pptx`)
-   - 14 professional slides with all results
-   - Ready for course presentation
-
 ## 🔮 Future Enhancements
 
 Potential improvements (out of current scope):
 
 - Deep learning models (LSTM, BERT, Transformers)
 - Multi-class sentiment (positive/neutral/negative)
-- Aspect-based sentiment analysis
-- Real-time streaming predictions
 - Web application deployment
 - Cross-validation and hyperparameter tuning
-- Ensemble methods
-- Explainable AI techniques (LIME, SHAP)
 
 ## 🙏 Acknowledgments
 
