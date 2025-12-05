@@ -227,7 +227,7 @@ print(f"Logistic Regression: {'Positive' if lr_prediction == 1 else 'Negative'}"
 
 1. **Performance**: Logistic Regression outperforms Naive Bayes by 3.4% accuracy
 2. **Speed**: Naive Bayes trains ~5x faster than Logistic Regression
-3. **Agreement**: Models agree on 93.5% of predictions
+3. **Agreement**: Models agree on ~90% of predictions
 4. **Confidence**: Logistic Regression has better calibrated confidence scores
 5. **ROC-AUC**: Both models show excellent discrimination (>0.93)
 
